@@ -140,6 +140,23 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Splash.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Splash.imageset\splash%401x-1.png" />
+    <ImageAsset Include="Assets.xcassets\Splash.imageset\splash%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\Splash.imageset\splash%403x-1.png" />
+    <ImageAsset Include="Assets.xcassets\about_icon.imageset\about_icon.png" />
+    <ImageAsset Include="Assets.xcassets\about_icon.imageset\about_icon%402x.png" />
+    <ImageAsset Include="Assets.xcassets\about_icon.imageset\about_icon%403x.png" />
+    <ImageAsset Include="Assets.xcassets\about_icon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\feed_icon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\feed_icon.imageset\fedd_icon%402x.png" />
+    <ImageAsset Include="Assets.xcassets\feed_icon.imageset\feed_icon.png" />
+    <ImageAsset Include="Assets.xcassets\feed_icon.imageset\feed_icon%403x.png" />
+    <ImageAsset Include="Assets.xcassets\portfolio_icon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\portfolio_icon.imageset\portfolio_icon.png" />
+    <ImageAsset Include="Assets.xcassets\portfolio_icon.imageset\portfolio_icon%402x.png" />
+    <ImageAsset Include="Assets.xcassets\portfolio_icon.imageset\portfolio_icon%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -159,5 +176,12 @@
       <Project>{EE68C965-1D88-446A-A53B-46E281A96F53}</Project>
       <Name>BlogApp</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\SplashScreen.imageset\" />
+    <Folder Include="Assets.xcassets\Splash.imageset\" />
+    <Folder Include="Assets.xcassets\about_icon.imageset\" />
+    <Folder Include="Assets.xcassets\feed_icon.imageset\" />
+    <Folder Include="Assets.xcassets\portfolio_icon.imageset\" />
   </ItemGroup>
 </Project>
