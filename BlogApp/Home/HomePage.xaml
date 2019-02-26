@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:blog="clr-namespace:BlogApp.Blog;assembly=BlogApp"
+            xmlns:portfolio="clr-namespace:BlogApp.Portfolio;assembly=BlogApp"
+            xmlns:about="clr-namespace:BlogApp.About;assembly=BlogApp"
+            x:Class="BlogApp.Home.HomePage"
+            Title="Monteroc">
+
+    <TabbedPage.BarBackgroundColor>
+        <OnPlatform x:TypeArguments="Color">
+            <On Platform="Android">#D0475D</On>
+        </OnPlatform>
+    </TabbedPage.BarBackgroundColor>
+
+    <TabbedPage.BarTextColor>
+        <OnPlatform x:TypeArguments="Color">
+            <On Platform="Android">White</On>
+            <On Platform="iOS">#D0475D</On>
+        </OnPlatform>
+    </TabbedPage.BarTextColor>
+
+    <blog:BlogPage Title="Blog" Icon="feed_icon" />
+    <portfolio:PortfolioPage Title="Portfolio" Icon="portfolio_icon" />
+    <about:AboutPage Title="About" Icon="about_icon" />
+
+</TabbedPage>

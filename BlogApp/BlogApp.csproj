@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -12,5 +12,19 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
     <PackageReference Include="Prism.Unity.Forms" Version="7.1.0.431" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Home\" />
+    <Folder Include="Blog\" />
+    <Folder Include="Portfolio\" />
+    <Folder Include="About\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Home\MainPage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Blog\BlogPage.config" />
   </ItemGroup>
 </Project>
